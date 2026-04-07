@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muhammed Malik K S - AI & Data Science Engineer Portfolio. Projects and Case Studies.">
+    <title>Projects & Case Studies | Muhammed Malik K S</title>
+    
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <script src="js/tailwind-config.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans antialiased text-white overflow-x-hidden selection:bg-blue-500 selection:text-white" >$
+
+        <div class="ambient-container">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+            <div class="orb orb-4"></div>
+        </div>
+    
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-nav top-0 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="index.html" class="flex-shrink-0 flex items-center gap-2 cursor-pointer">
+                    <div class="w-8 h-8 glass-panel border border-white/20 rounded-full text-white flex items-center justify-center">
+                        <span class="text-white font-bold text-sm">M</span>
+                    </div>
+                    <span class="font-bold text-xl tracking-tight text-white">Malik</span>
+                </a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="about.html" class="nav-link text-sm font-medium text-gray-300 hover:text-white transition">About</a>
+                    <a href="skills.html" class="nav-link text-sm font-medium text-gray-300 hover:text-white transition">Skills</a>
+                    <a href="projects.html" class="nav-link text-sm font-medium text-gray-300 hover:text-white transition">Projects</a>
+                    <a href="blog.html" class="nav-link text-sm font-medium text-gray-300 hover:text-white transition">Blog</a>
+                    <a href="contact.html" class="nav-link text-sm font-medium text-gray-300 hover:text-white transition">Contact</a>
+                </div>
+                <div class="flex items-center gap-4">
+                    <a href="assets/Resume.pdf" download class="hidden sm:block px-4 py-2 text-sm font-medium glass-button-primary text-black rounded-full  transition">
+                        <i class="fas fa-download mr-2"></i>Resume
+                    </a>
+                    <button class="md:hidden text-gray-300 hover:text-white" onclick="toggleMobileMenu()">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden glass-panel rounded-3xl p-6 border-t border-white/10">
+            <div class="px-4 pt-2 pb-4 space-y-1">
+                <a href="index.html" class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800 rounded-full">Home</a>
+                <a href="about.html" class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800 rounded-full">About</a>
+                <a href="skills.html" class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800 rounded-full">Skills</a>
+                <a href="projects.html" class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800 rounded-full">Projects</a>
+                <a href="blog.html" class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800 rounded-full">Blog</a>
+                <a href="contact.html" class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800 rounded-full">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="pt-24">
+        <!-- Featured Projects -->
+        <section id="projects" class="py-12">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-heading md:text-4xl font-heading font-bold mb-4">Featured Projects</h2>
+                    <p class="text-gray-400 max-w-2xl mx-auto">End-to-end implementations showcasing full-stack data capabilities</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project 1 -->
+                    <div class="glass-panel rounded-3xl overflow-hidden glass-panel rounded-3xl p-6 rounded-2xl-xl overflow-hidden border border-white/10 group">
+                        <div class="h-48 bg-gradient-to-br from-blue-600 to-purple-700 relative overflow-hidden">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-24 h-24 glass-panel border border-white/30 rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition duration-500">
+                                    <i class="fas fa-graduation-cap text-4xl text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]"></i>
+                                </div>
+                            </div>
+                            <div class="absolute top-4 right-4">
+                                <span class="px-3 py-1 bg-black/30 backdrop-blur rounded-full text-xs text-white border border-white/20">ML Model</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-white group-hover:text-blue-400 transition">AI-Based Student Performance Prediction</h3>
+                            <p class="text-gray-400 text-sm mb-4">Machine learning model predicting student outcomes using historical data, feature engineering, and visualization dashboards.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-2 py-1 bg-blue-500/20 text-blue-300 rounded-2xl text-xs">Python</span>
+                                <span class="px-2 py-1 bg-purple-500/20 text-purple-300 rounded-2xl text-xs">Scikit-learn</span>
+                                <span class="px-2 py-1 bg-green-500/20 text-green-300 rounded-2xl text-xs">Pandas</span>
+                            </div>
+                            <div class="flex gap-3">
+                                <a href="#" class="flex-1 text-center py-2 glass-button-primary text-black  rounded-full text-sm font-medium transition">View Demo</a>
+                                <a href="#" class="flex-1 text-center py-2 glass-panel rounded-3xl p-6 hover:bg-gray-800 rounded-full text-sm font-medium transition border border-gray-600">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="glass-panel rounded-3xl overflow-hidden glass-panel rounded-3xl p-6 rounded-2xl-xl overflow-hidden border border-white/10 group">
+                        <div class="h-48 bg-gradient-to-br from-green-600 to-teal-700 relative overflow-hidden">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-24 h-24 glass-panel border border-white/30 rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition duration-500">
+                                    <i class="fas fa-shopping-cart text-4xl text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]"></i>
+                                </div>
+                            </div>
+                            <div class="absolute top-4 right-4">
+                                <span class="px-3 py-1 bg-black/30 backdrop-blur rounded-full text-xs text-white border border-white/20">Full-Stack</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-white group-hover:text-green-400 transition">E-commerce Recommendation System</h3>
+                            <p class="text-gray-400 text-sm mb-4">Collaborative filtering recommendation engine with Node.js backend, MySQL database, and REST API integration.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-2 py-1 bg-green-500/20 text-green-300 rounded-2xl text-xs">Node.js</span>
+                                <span class="px-2 py-1 bg-blue-500/20 text-blue-300 rounded-2xl text-xs">MySQL</span>
+                                <span class="px-2 py-1 bg-yellow-500/20 text-yellow-300 rounded-2xl text-xs">ML</span>
+                            </div>
+                            <div class="flex gap-3">
+                                <a href="#" class="flex-1 text-center py-2 bg-green-600 hover:bg-green-700 rounded-full text-sm font-medium transition">View Demo</a>
+                                <a href="#" class="flex-1 text-center py-2 glass-panel rounded-3xl p-6 hover:bg-gray-800 rounded-full text-sm font-medium transition border border-gray-600">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="glass-panel rounded-3xl overflow-hidden glass-panel rounded-3xl p-6 rounded-2xl-xl overflow-hidden border border-white/10 group">
+                        <div class="h-48 bg-gradient-to-br from-orange-600 to-red-700 relative overflow-hidden">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-24 h-24 glass-panel border border-white/30 rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition duration-500">
+                                    <i class="fas fa-chart-bar text-4xl text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]"></i>
+                                </div>
+                            </div>
+                            <div class="absolute top-4 right-4">
+                                <span class="px-3 py-1 bg-black/30 backdrop-blur rounded-full text-xs text-white border border-white/20">Analytics</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-white group-hover:text-orange-400 transition">Business Analytics Dashboard</h3>
+                            <p class="text-gray-400 text-sm mb-4">Interactive Power BI dashboard with real-time KPIs, data modeling, and automated reporting for business intelligence.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-2 py-1 bg-orange-500/20 text-orange-300 rounded-2xl text-xs">Power BI</span>
+                                <span class="px-2 py-1 bg-blue-500/20 text-blue-300 rounded-2xl text-xs">SQL</span>
+                                <span class="px-2 py-1 bg-purple-500/20 text-purple-300 rounded-2xl text-xs">DAX</span>
+                            </div>
+                            <div class="flex gap-3">
+                                <a href="#" class="flex-1 text-center py-2 bg-orange-600 hover:bg-orange-700 rounded-full text-sm font-medium transition">View Demo</a>
+                                <a href="#" class="flex-1 text-center py-2 glass-panel rounded-3xl p-6 hover:bg-gray-800 rounded-full text-sm font-medium transition border border-gray-600">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="glass-panel rounded-3xl overflow-hidden glass-panel rounded-3xl p-6 rounded-2xl-xl overflow-hidden border border-white/10 group">
+                        <div class="h-48 bg-gradient-to-br from-red-600 to-pink-700 relative overflow-hidden">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-24 h-24 glass-panel border border-white/30 rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition duration-500">
+                                    <i class="fas fa-shield-alt text-4xl text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]"></i>
+                                </div>
+                            </div>
+                            <div class="absolute top-4 right-4">
+                                <span class="px-3 py-1 bg-black/30 backdrop-blur rounded-full text-xs text-white border border-white/20">Classification</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-white group-hover:text-red-400 transition">Fraud Detection Model</h3>
+                            <p class="text-gray-400 text-sm mb-4">Binary classification system for financial fraud detection with advanced preprocessing, SMOTE, and ensemble methods.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-2 py-1 bg-red-500/20 text-red-300 rounded-2xl text-xs">Python</span>
+                                <span class="px-2 py-1 bg-blue-500/20 text-blue-300 rounded-2xl text-xs">XGBoost</span>
+                                <span class="px-2 py-1 bg-purple-500/20 text-purple-300 rounded-2xl text-xs">Imbalanced-learn</span>
+                            </div>
+                            <div class="flex gap-3">
+                                <a href="#" class="flex-1 text-center py-2 bg-red-600 hover:bg-red-700 rounded-full text-sm font-medium transition">View Demo</a>
+                                <a href="#" class="flex-1 text-center py-2 glass-panel rounded-3xl p-6 hover:bg-gray-800 rounded-full text-sm font-medium transition border border-gray-600">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="glass-panel rounded-3xl overflow-hidden glass-panel rounded-3xl p-6 rounded-2xl-xl overflow-hidden border border-white/10 group">
+                        <div class="h-48 bg-gradient-to-br from-cyan-600 to-blue-700 relative overflow-hidden">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-24 h-24 glass-panel border border-white/30 rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition duration-500">
+                                    <i class="fas fa-network-wired text-4xl text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]"></i>
+                                </div>
+                            </div>
+                            <div class="absolute top-4 right-4">
+                                <span class="px-3 py-1 bg-black/30 backdrop-blur rounded-full text-xs text-white border border-white/20">API</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-white group-hover:text-cyan-400 transition">Data API Service</h3>
+                            <p class="text-gray-400 text-sm mb-4">RESTful API built with Node.js and MySQL, featuring authentication, rate limiting, and data validation for scalable data access.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-2 py-1 bg-cyan-500/20 text-cyan-300 rounded-2xl text-xs">Node.js</span>
+                                <span class="px-2 py-1 bg-blue-500/20 text-blue-300 rounded-2xl text-xs">Express</span>
+                                <span class="px-2 py-1 bg-yellow-500/20 text-yellow-300 rounded-2xl text-xs">JWT</span>
+                            </div>
+                            <div class="flex gap-3">
+                                <a href="#" class="flex-1 text-center py-2 bg-cyan-600 hover:bg-cyan-700 rounded-full text-sm font-medium transition">View Demo</a>
+                                <a href="#" class="flex-1 text-center py-2 glass-panel rounded-3xl p-6 hover:bg-gray-800 rounded-full text-sm font-medium transition border border-gray-600">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="glass-panel rounded-3xl overflow-hidden glass-panel rounded-3xl p-6 rounded-2xl-xl overflow-hidden border border-white/10 group">
+                        <div class="h-48 bg-gradient-to-br from-purple-600 to-indigo-700 relative overflow-hidden">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-24 h-24 glass-panel border border-white/30 rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition duration-500">
+                                    <i class="fas fa-comments text-4xl text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]"></i>
+                                </div>
+                            </div>
+                            <div class="absolute top-4 right-4">
+                                <span class="px-3 py-1 bg-black/30 backdrop-blur rounded-full text-xs text-white border border-white/20">NLP</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-white group-hover:text-purple-400 transition">Sentiment Analysis Pipeline</h3>
+                            <p class="text-gray-400 text-sm mb-4">Text preprocessing and sentiment classification pipeline using NLTK and Scikit-learn with real-time streaming capability.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-2 py-1 bg-purple-500/20 text-purple-300 rounded-2xl text-xs">NLP</span>
+                                <span class="px-2 py-1 bg-blue-500/20 text-blue-300 rounded-2xl text-xs">NLTK</span>
+                                <span class="px-2 py-1 bg-green-500/20 text-green-300 rounded-2xl text-xs">Pipeline</span>
+                            </div>
+                            <div class="flex gap-3">
+                                <a href="#" class="flex-1 text-center py-2 bg-purple-600 hover:bg-purple-700 rounded-full text-sm font-medium transition">View Demo</a>
+                                <a href="#" class="flex-1 text-center py-2 glass-panel rounded-3xl p-6 hover:bg-gray-800 rounded-full text-sm font-medium transition border border-gray-600">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Studies Section -->
+        <section id="case-studies" class="py-12 bg-white/5/30">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-heading md:text-4xl font-heading font-bold mb-4">Case Studies</h2>
+                    <p class="text-gray-400 max-w-2xl mx-auto">Deep dives into problem-solving approaches and technical implementations</p>
+                </div>
+
+                <!-- Case Study 1 -->
+                <div class="mb-16 glass-panel rounded-3xl p-6 rounded-2xl-2xl p-8 border border-white/10">
+                    <div class="grid lg:grid-cols-2 gap-8">
+                        <div>
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm font-medium">Case Study 01</span>
+                                <span class="text-gray-500 text-sm">Student Performance Prediction</span>
+                            </div>
+                            <h3 class="text-2xl font-heading font-bold mb-4">Predicting Academic Outcomes with 94% Accuracy</h3>
+                            
+                            <div class="space-y-4 text-gray-300">
+                                <div>
+                                    <h4 class="text-white font-semibold mb-1">Problem Statement</h4>
+                                    <p class="text-sm">Educational institutions needed early intervention systems to identify at-risk students based on behavioral and academic patterns.</p>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-semibold mb-1">My Role</h4>
+                                    <p class="text-sm">End-to-end development: data collection, feature engineering, model selection, and deployment pipeline.</p>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-semibold mb-1">Solution Architecture</h4>
+                                    <ul class="text-sm space-y-1 list-disc list-inside text-gray-400">
+                                        <li>Data preprocessing pipeline handling missing values and outliers</li>
+                                        <li>Feature selection using correlation analysis and PCA</li>
+                                        <li>Ensemble model (Random Forest + XGBoost) for robust predictions</li>
+                                        <li>Flask API for real-time predictions</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="mt-6 grid grid-cols-3 gap-4">
+                                <div class="text-center p-3 bg-gray-800/50 rounded-full">
+                                    <div class="text-xl font-bold text-green-400">94%</div>
+                                    <div class="text-xs text-gray-400">Accuracy</div>
+                                </div>
+                                <div class="text-center p-3 bg-gray-800/50 rounded-full">
+                                    <div class="text-xl font-bold text-blue-400">0.91</div>
+                                    <div class="text-xs text-gray-400">F1-Score</div>
+                                </div>
+                                <div class="text-center p-3 bg-gray-800/50 rounded-full">
+                                    <div class="text-xl font-bold text-purple-400">15ms</div>
+                                    <div class="text-xs text-gray-400">Latency</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4">
+                            <div class="code-block">
+                                <div class="flex items-center gap-2 mb-3 text-xs text-gray-500">
+                                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                                    <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                                    <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                                    <span class="ml-2">model_training.py</span>
+                                </div>
+                                <pre class="text-sm text-gray-300 overflow-x-auto"><code># Feature Engineering Pipeline
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import cross_val_score
+
+# Load and preprocess
+df = pd.read_csv('student_data.csv')
+features = ['attendance', 'prev_grades', 'study_hours']
+X = df[features]
+y = df['performance_label']
+
+# Model training with cross-validation
+model = RandomForestClassifier(n_estimators=100)
+scores = cross_val_score(model, X, y, cv=5)
+print(f"CV Accuracy: {scores.mean():.3f} (+/- {scores.std()*2:.3f})")</code></pre>
+                            </div>
+
+                            <div class="p-4 bg-gray-800/30 rounded-full border border-white/10">
+                                <h4 class="text-sm font-semibold text-white mb-2">Key Learnings</h4>
+                                <p class="text-sm text-gray-400">Feature engineering had higher impact than model tuning. Domain knowledge (understanding educational metrics) was crucial for meaningful feature creation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Study 2 -->
+                <div class="glass-panel rounded-3xl p-6 rounded-2xl-2xl p-8 border border-white/10">
+                    <div class="grid lg:grid-cols-2 gap-8">
+                        <div class="order-2 lg:order-1 space-y-4">
+                            <div class="code-block">
+                                <div class="flex items-center gap-2 mb-3 text-xs text-gray-500">
+                                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                                    <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                                    <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                                    <span class="ml-2">recommendation_api.js</span>
+                                </div>
+                                <pre class="text-sm text-gray-300 overflow-x-auto"><code>// Collaborative Filtering Endpoint
+app.get('/api/recommend/:userId', async (req, res) => {
+  const userId = req.params.userId;
+  
+  // Fetch user interaction matrix
+  const interactions = await db.query(`
+    SELECT product_id, rating 
+    FROM user_interactions 
+    WHERE user_id = ?
+  `, [userId]);
+  
+  // Generate recommendations using item-based CF
+  const recommendations = await mlService
+    .getRecommendations(interactions, 10);
+    
+  res.json({ recommendations });
+});</code></pre>
+                            </div>
+                            
+                            <div class="p-4 bg-gray-800/30 rounded-full border border-white/10">
+                                <h4 class="text-sm font-semibold text-white mb-2">Architecture Overview</h4>
+                                <div class="flex items-center justify-between text-xs text-gray-400 mt-2">
+                                    <span>Client</span>
+                                    <i class="fas fa-arrow-right text-gray-600"></i>
+                                    <span>Node.js API</span>
+                                    <i class="fas fa-arrow-right text-gray-600"></i>
+                                    <span>MySQL</span>
+                                    <i class="fas fa-arrow-right text-gray-600"></i>
+                                    <span>Python ML</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="order-1 lg:order-2">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm font-medium">Case Study 02</span>
+                                <span class="text-gray-500 text-sm">E-commerce Recommendation</span>
+                            </div>
+                            <h3 class="text-2xl font-heading font-bold mb-4">Building a Scalable Recommendation Engine</h3>
+                            
+                            <div class="space-y-4 text-gray-300">
+                                <div>
+                                    <h4 class="text-white font-semibold mb-1">Problem Statement</h4>
+                                    <p class="text-sm">Online store needed personalized product recommendations to increase conversion rates and average order value.</p>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-semibold mb-1">Technical Challenge</h4>
+                                    <p class="text-sm">Integrating Python ML models with existing Node.js backend while maintaining sub-100ms response times.</p>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-semibold mb-1">Solution</h4>
+                                    <ul class="text-sm space-y-1 list-disc list-inside text-gray-400">
+                                        <li>Microservices architecture separating ML inference from API layer</li>
+                                        <li>Redis caching for frequent recommendation sets</li>
+                                        <li>Batch processing for model training, real-time for serving</li>
+                                        <li>A/B testing framework for model performance validation</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="mt-6 grid grid-cols-2 gap-4">
+                                <div class="p-3 bg-gray-800/50 rounded-full">
+                                    <div class="text-lg font-bold text-green-400">+23%</div>
+                                    <div class="text-xs text-gray-400">Conversion Rate</div>
+                                </div>
+                                <div class="p-3 bg-gray-800/50 rounded-full">
+                                    <div class="text-lg font-bold text-blue-400">85ms</div>
+                                    <div class="text-xs text-gray-400">Avg Response Time</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-white/10 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-2">
+                <div id="admin-btn" data-admin-pwd="bWxrMjAwNQ==" class="w-6 h-6 glass-panel text-white rounded-2xl flex items-center justify-center cursor-pointer hover:shadow-[0_0_10px_rgba(168,85,247,0.5)] transition" title="Admin Access">
+                    <span class="text-white text-xs font-bold pointer-events-none">M</span>
+                </div>
+                <span class="text-gray-400 text-sm">© 2024 Muhammed Malik K S. All rights reserved.</span>
+            </div>
+            <div class="flex gap-6 text-sm text-gray-500">
+                <a href="#" class="hover:text-white transition">Privacy</a>
+                <a href="#" class="hover:text-white transition">Terms</a>
+                <a href="#" class="hover:text-white transition">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

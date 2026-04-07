@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muhammed Malik K S - AI & Data Science Engineer Portfolio. Blog.">
+    <title>Blog | Muhammed Malik K S</title>
+    
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <script src="js/tailwind-config.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans antialiased text-white overflow-x-hidden selection:bg-blue-500 selection:text-white" >$
+
+        <div class="ambient-container">
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+            <div class="orb orb-4"></div>
+        </div>
+    
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-nav top-0 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="index.html" class="flex-shrink-0 flex items-center gap-2 cursor-pointer">
+                    <div class="w-8 h-8 glass-panel border border-white/20 rounded-full text-white flex items-center justify-center">
+                        <span class="text-white font-bold text-sm">M</span>
+                    </div>
+                    <span class="font-bold text-xl tracking-tight text-white">Malik</span>
+                </a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="about.html" class="nav-link text-sm font-medium text-gray-300 hover:text-white transition">About</a>
+                    <a href="skills.html" class="nav-link text-sm font-medium text-gray-300 hover:text-white transition">Skills</a>
+                    <a href="projects.html" class="nav-link text-sm font-medium text-gray-300 hover:text-white transition">Projects</a>
+                    <a href="blog.html" class="nav-link text-sm font-medium text-gray-300 hover:text-white transition">Blog</a>
+                    <a href="contact.html" class="nav-link text-sm font-medium text-gray-300 hover:text-white transition">Contact</a>
+                </div>
+                <div class="flex items-center gap-4">
+                    <a href="assets/Resume.pdf" download class="hidden sm:block px-4 py-2 text-sm font-medium glass-button-primary text-black rounded-full  transition">
+                        <i class="fas fa-download mr-2"></i>Resume
+                    </a>
+                    <button class="md:hidden text-gray-300 hover:text-white" onclick="toggleMobileMenu()">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden glass-panel rounded-3xl p-6 border-t border-white/10">
+            <div class="px-4 pt-2 pb-4 space-y-1">
+                <a href="index.html" class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800 rounded-full">Home</a>
+                <a href="about.html" class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800 rounded-full">About</a>
+                <a href="skills.html" class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800 rounded-full">Skills</a>
+                <a href="projects.html" class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800 rounded-full">Projects</a>
+                <a href="blog.html" class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800 rounded-full">Blog</a>
+                <a href="contact.html" class="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800 rounded-full">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="pt-24">
+        <!-- Blog Section -->
+        <section id="blog" class="py-12">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-heading md:text-4xl font-heading font-bold mb-4">Technical Blog</h2>
+                    <p class="text-gray-400 max-w-2xl mx-auto">Sharing knowledge on AI, Data Engineering, and Backend Development</p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Blog Post 1 -->
+                    <article class="glass-panel rounded-3xl p-6 rounded-2xl-xl overflow-hidden border border-white/10 hover:border-blue-500/50 transition group">
+                        <div class="h-40 bg-gradient-to-br from-blue-600 to-indigo-700 relative">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <i class="fas fa-robot text-5xl font-heading text-white/20"></i>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center gap-2 mb-3 text-xs text-gray-500">
+                                <span>Machine Learning</span>
+                                <span>•</span>
+                                <span>5 min read</span>
+                            </div>
+                            <h3 class="text-lg font-bold mb-2 text-white group-hover:text-blue-400 transition">Understanding Gradient Boosting: A Practical Guide</h3>
+                            <p class="text-sm text-gray-400 mb-4">Breaking down XGBoost and LightGBM algorithms with intuitive explanations and Python implementations.</p>
+                            <a href="#" class="text-blue-400 text-sm font-medium hover:text-blue-300 transition flex items-center gap-1">
+                                Read Article <i class="fas fa-arrow-right text-xs"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 2 -->
+                    <article class="glass-panel rounded-3xl p-6 rounded-2xl-xl overflow-hidden border border-white/10 hover:border-green-500/50 transition group">
+                        <div class="h-40 bg-gradient-to-br from-green-600 to-teal-700 relative">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <i class="fas fa-stream text-5xl font-heading text-white/20"></i>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center gap-2 mb-3 text-xs text-gray-500">
+                                <span>Data Engineering</span>
+                                <span>•</span>
+                                <span>8 min read</span>
+                            </div>
+                            <h3 class="text-lg font-bold mb-2 text-white group-hover:text-green-400 transition">Building Robust Data Pipelines with Python</h3>
+                            <p class="text-sm text-gray-400 mb-4">Best practices for ETL workflows, error handling, and monitoring in production data pipelines.</p>
+                            <a href="#" class="text-green-400 text-sm font-medium hover:text-green-300 transition flex items-center gap-1">
+                                Read Article <i class="fas fa-arrow-right text-xs"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Blog Post 3 -->
+                    <article class="glass-panel rounded-3xl p-6 rounded-2xl-xl overflow-hidden border border-white/10 hover:border-purple-500/50 transition group">
+                        <div class="h-40 bg-gradient-to-br from-purple-600 to-pink-700 relative">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <i class="fas fa-database text-5xl font-heading text-white/20"></i>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center gap-2 mb-3 text-xs text-gray-500">
+                                <span>Database</span>
+                                <span>•</span>
+                                <span>6 min read</span>
+                            </div>
+                            <h3 class="text-lg font-bold mb-2 text-white group-hover:text-purple-400 transition">MySQL Optimization for Data Scientists</h3>
+                            <p class="text-sm text-gray-400 mb-4">Query optimization techniques, indexing strategies, and when to move from SQL to Pandas.</p>
+                            <a href="#" class="text-purple-400 text-sm font-medium hover:text-purple-300 transition flex items-center gap-1">
+                                Read Article <i class="fas fa-arrow-right text-xs"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="mt-12 text-center">
+                    <a href="#" class="inline-flex items-center gap-2 px-6 py-3 glass-panel rounded-3xl p-6 rounded-full border border-white/10 hover:border-blue-500 transition text-sm font-medium">
+                        View All Articles <i class="fas fa-external-link-alt text-xs"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-white/10 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-2">
+                <div id="admin-btn" data-admin-pwd="bWxrMjAwNQ==" class="w-6 h-6 glass-panel text-white rounded-2xl flex items-center justify-center cursor-pointer hover:shadow-[0_0_10px_rgba(168,85,247,0.5)] transition" title="Admin Access">
+                    <span class="text-white text-xs font-bold pointer-events-none">M</span>
+                </div>
+                <span class="text-gray-400 text-sm">© 2024 Muhammed Malik K S. All rights reserved.</span>
+            </div>
+            <div class="flex gap-6 text-sm text-gray-500">
+                <a href="#" class="hover:text-white transition">Privacy</a>
+                <a href="#" class="hover:text-white transition">Terms</a>
+                <a href="#" class="hover:text-white transition">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
